@@ -1,0 +1,67 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #18005B;
+    font-size: 18px;
+}
+.wrapper {
+    max-width: 1600px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.nav > li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav> li > a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.logo {
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: 272;
+    display: flex;
+    align-items: center;
+}
+.banner {
+    background-image: url(/DMVinformation/src/environments/img/Lupa\ 1.png);
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    background-position: center center;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    color: #FFFFFF;
+}
+.title {
+    font: size 48px; 
+    font-weight: 800;
+}
+.banner {
+    margin-bottom: 50px;
+    max-width: 644;
+}
+.btn {
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 2px solid #1DF0BD;
+    background-color: transparent;
+    padding: 10px 15px;
+}
+.inf {
+    color: #000000;
+    text-decoration: none;
+    border-radius: 30px;
+    background: #FFB23E ;
+    padding: 36px 80px;
+}
+.bg-white {
+    color: #000000; 
+}
